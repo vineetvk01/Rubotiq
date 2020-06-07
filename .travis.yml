@@ -1,0 +1,13 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t vineetvk01/rubotiq-client -f ./client/Dockerfile.dev ./client
+
+scripts:
+  - docker run vineetvk01/rubotiq-client yarn test
+
+after_success:
+  - docker build -t vineetvk01/rubotiq-client ./client
+  - docker build -t vineetvk01/rubotiq-server ./server
