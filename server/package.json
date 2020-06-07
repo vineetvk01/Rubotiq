@@ -1,6 +1,6 @@
 {
-  "name": "rubotiq-server",
-  "version": "0.0.0",
+  "name": "server",
+  "version": "0.1.0",
   "description": "Core Backend Service for the Rubotiq Platform",
   "main": "dist/index.js",
   "scripts": {

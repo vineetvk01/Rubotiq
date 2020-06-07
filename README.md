@@ -1,6 +1,6 @@
-## KanBanMe
+## Rubotiq : BeFree from repetitions
 
-This tool is used to create Db Designs
+This tool is used to solve daily problems
 
 #### Production Status:
 
